@@ -20,6 +20,7 @@ int main()
 	//region.get_page_size
 	for (std::size_t i = 0; i < region.get_size(); i++) 
 	{
+		// Check Data
 		if (ch[i] != 1) 
 		{
 			std::cout << "shared mem data not match in byte num:"<< i <<"\n";
